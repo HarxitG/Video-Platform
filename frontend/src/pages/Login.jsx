@@ -7,6 +7,10 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const nav = useNavigate();
 
+  if (localStorage.getItem("token")) {
+  nav("/dashboard");
+  }
+
   const login = async () => {
     const res = await api.post("/auth/login", { email, password });
     localStorage.setItem("token", res.data.token);
