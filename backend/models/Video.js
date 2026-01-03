@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
 
-export default mongoose.model(
-  "Video",
-  new mongoose.Schema({
-    filename: String,
-    status: { type: String, default: "processing" },
-  })
-);
+const videoSchema = new mongoose.Schema({
+  title: String,
+  url: String,
+  status: { type: String, default: "processing" },
+});
+
+export default mongoose.model("Video", videoSchema);
