@@ -30,7 +30,7 @@ The app supports **user authentication**, **video upload**, **video processing**
 ## 🌐 Deployment
 
 - **Backend:** [https://video-platform-20yg.onrender.com](https://video-platform-20yg.onrender.com)
-- **Frontend:** [https://video-platform-frontend.onrender.com](https://video-platform-frontend.onrender.com)
+- **Frontend:** [https://video-platform-frontend-qfkl.onrender.com](https://video-platform-frontend-qfkl.onrender.com)
 
 > Note: The backend URL is hard-coded in Axios for this assignment.
 
